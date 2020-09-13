@@ -10,13 +10,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("First Text Line")
-            Text("Second Text Line")
+
+        VStack(alignment: .center) {
+            
+            Image("bike_nakamura_1")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .cornerRadius(16)
+                .padding(.all)
+            
+            Text("Sinisa bike")
+                .font(.largeTitle)
+                .foregroundColor(.blue)
+            Text("Nakamura Platinum 6.9")
             
             HStack {
-                Text("Left Side")
-                Text("Right Side")
+                Text("Previous bike")
+                    .font(.title)
+                Text("Next bike")
+                    .font(.title)
+                    .padding(.all)
             }
         }
     }
