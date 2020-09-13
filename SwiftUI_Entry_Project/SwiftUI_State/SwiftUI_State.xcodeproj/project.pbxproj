@@ -15,7 +15,6 @@
 		6050BDB4250E8A940001DA27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6050BDB2250E8A940001DA27 /* LaunchScreen.storyboard */; };
 		6050BDBF250E8A940001DA27 /* SwiftUI_StateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050BDBE250E8A940001DA27 /* SwiftUI_StateTests.swift */; };
 		6050BDCA250E8A940001DA27 /* SwiftUI_StateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050BDC9250E8A940001DA27 /* SwiftUI_StateUITests.swift */; };
-		6050BDD9250E8D370001DA27 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050BDD8250E8D370001DA27 /* TaskItem.swift */; };
 		6050BDDB250E8EA40001DA27 /* DishItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050BDDA250E8EA40001DA27 /* DishItem.swift */; };
 		6050BDDE250E90430001DA27 /* DishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050BDDD250E90430001DA27 /* DishCell.swift */; };
 /* End PBXBuildFile section */
@@ -52,7 +51,6 @@
 		6050BDC5250E8A940001DA27 /* SwiftUI_StateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_StateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6050BDC9250E8A940001DA27 /* SwiftUI_StateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StateUITests.swift; sourceTree = "<group>"; };
 		6050BDCB250E8A940001DA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6050BDD8250E8D370001DA27 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
 		6050BDDA250E8EA40001DA27 /* DishItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishItem.swift; sourceTree = "<group>"; };
 		6050BDDD250E90430001DA27 /* DishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				6050BDDC250E902F0001DA27 /* Dish */,
-				6050BDD8250E8D370001DA27 /* TaskItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -297,7 +294,6 @@
 				6050BDAA250E8A920001DA27 /* SceneDelegate.swift in Sources */,
 				6050BDDE250E90430001DA27 /* DishCell.swift in Sources */,
 				6050BDAC250E8A920001DA27 /* ContentView.swift in Sources */,
-				6050BDD9250E8D370001DA27 /* TaskItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

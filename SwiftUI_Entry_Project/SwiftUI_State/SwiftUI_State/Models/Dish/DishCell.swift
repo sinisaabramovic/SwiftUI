@@ -24,11 +24,12 @@ struct DishCell: View {
                 .lineLimit(nil)
             
             Spacer()
+            
             if dish.isSpicy {
                 Image("spicy-icon")
                     .resizable()
                     .frame(width: 35, height: 35)
-            }            
+            }
         }
     }
 }
